@@ -1,0 +1,159 @@
+{
+    "asset": {
+        "generator": "https://3dviewer.net",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                -2.6469779601696886e-23,
+                0,
+                0,
+                2.6469779601696886e-23,
+                1,
+                0,
+                443.9437255859375,
+                0.00012207031250000003,
+                732.0095214843751,
+                1
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "dl_MickeysHouse",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                }
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "BLEND"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "dl_MickeysHouse",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "model.bin",
+            "byteLength": 346356
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 38484,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 38484,
+            "byteLength": 115452,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 153936,
+            "byteLength": 115452,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 269388,
+            "byteLength": 76968,
+            "target": 34962
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 9621,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9621,
+            "min": [
+                -1470.0634765625,
+                -0.1633148193359375,
+                -1049.2447509765625
+            ],
+            "max": [
+                1470.0634765625,
+                1196.9375,
+                1044.6683349609375
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9621,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9621,
+            "type": "VEC2"
+        }
+    ],
+    "images": [
+        {
+            "uri": "dl_MickeysHouse.png"
+        }
+    ],
+    "textures": [
+        {
+            "source": 0
+        }
+    ]
+}
